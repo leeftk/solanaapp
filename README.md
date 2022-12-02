@@ -3,17 +3,16 @@
 #Instructions
 
 1. Clone repo
-  ```javascript
-      git clone
-     
-     ```
+   ```js
+   git clone
+   ```
      
 2. Install dependencies
-  ```javascript
+  ```js
      npm install
-     ```
+  ```
      
 2. Run test
   ```javascript
      Anchor test
-     ```
+  ```
