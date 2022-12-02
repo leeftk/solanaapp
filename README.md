@@ -1,6 +1,6 @@
 # SolanaApp
 
-#Instructions
+# Instructions
 
 1. Clone repo
    ```js
@@ -17,7 +17,7 @@
      Anchor test
      ```
      
- #Description
+ # Description
  
  The application was modeled after what a similar application would look like if built in Solidity. First I defined a struct that each track would use as a model when uploaded. The struct contained the track name and the cid assoted with it. This struct was then saved into a vector giving us a list of all track we have uploaed.
  
