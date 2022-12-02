@@ -8,11 +8,11 @@
    ```
      
 2. Install dependencies
-  ```js
+     ```js
      npm install
-  ```
+     ```
      
 2. Run test
-  ```javascript
+     ```javascript
      Anchor test
-  ```
+     ```
