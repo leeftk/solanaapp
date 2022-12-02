@@ -4,7 +4,8 @@
 
 1. Clone repo
   ```javascript
-     git clone
+      git clone
+     
      ```
      
 2. Install dependencies
