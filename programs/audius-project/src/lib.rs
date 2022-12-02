@@ -10,10 +10,10 @@ pub mod myepicproject {
         base_account.cid_count = 0;
         Ok(())
     }
-
+    // couldn't figure out how to get this function to work :(
     // pub fn print_cid(ctx: Context<StartStuffOff>, cidid: usize) -> Result<()> {
     //     let base_account = &mut ctx.accounts.base_account;
-    //     print!("{:?}", base_account.cid_list[cidid].cid_link.to_string());
+    //     print!("{:?}", base_account.cid_list);
     //  Ok(())
     // }
 
@@ -62,6 +62,13 @@ pub struct ItemStruct {
     pub cid_link: String,
     pub user_address: Pubkey,
 }
+// #[derive(Accounts)]
+// pub struct PrintCid<'info> {
+//     #[account(mut)]
+//     pub base_account: Account<'info, BaseAccount>,
+//     #[account(mut)]
+//     pub user: Signer<'info>,
+// }
 
 #[account]
 pub struct BaseAccount {
